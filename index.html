@@ -1,133 +1,362 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>#000000</title>
-    <link type="image/x-icon" rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAHklEQVQ4T2NkYGD4z0ABYBw1gGE0DBhGw4BhWIQBAE5OEAELnjVHAAAAAElFTkSuQmCC">
-    <style>
-        :root {
-            --color: #000000;
-            --color-transparent: #00000022;
-        }
-
-        ::selection {
-            background: var(--color-transparent);
-        }
-
-        html,
-        body {
-            background: var(--color);
-            height: 100%;
-            margin: 0;
-        }
-
-        body {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-        }
-
-        #color {
-            background: white;
-            color: var(--color);
-            font-size: 2.5rem;
-            font-weight: 300;
-            padding: 2.25rem 3rem;
-            font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-            cursor: text;
-        }
-    </style>
+  <title>Ian Norden</title>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico">
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+  <!-- Plugins CSS -->
+  <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+  <!-- Theme CSS -->
+  <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
 </head>
-
 <body>
-    <p id="color">#000000</p>
-    <script>
-        function randomInt(min, max) {
-            return Math.floor(Math.random() * (max - min + 1) + min);
-        }
+  <div class="wrapper">
+    <div class="sidebar-wrapper">
+      <div class="profile-container">
+        <img class="profile" src="assets/images/profile.webp" alt="Ian" />
+        <h1 class="name">Ian Norden</h1>
+        <h3 class="tagline">Sr. Security Engineer </br>AppSec</h3>
+        </br>
+        <i class="fa fa-download"></i>
+        <a href="https://iancnorden.com/assets/resume/iancnorden_res.pdf" target="_blank">PDF resume</a>
+      </div>
+      <!--//profile-container-->
+      <div class="contact-container container-block">
+        <ul class="list-unstyled contact-list">
+          <li class="">
+            <i class="fa fa-map-marker"></i>Greater Atlanta Area</li>
+          <li class="email">
+            <i class="fa fa-envelope"></i>
+            <a href="mailto: iancnorden@gmail.com">iancnorden[ @ ]gmail</a>
+          </li>
+          <li class="website">
+            <i class="fa fa-globe"></i>
+            <a href="https://iancnorden.com" target="_blank">iancnorden.com</a>
+          </li>
+          <li class="website">
+            <i class="fa fa-key"></i>
+            <a href="https://keybase.io/iancnorden" target="_blank">keybase.io/iancnorden</a>
+          </li>
+          <li class="linkedin">
+            <i class="fa fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/iancnorden" target="_blank">linkedin.com/iancnorden</a>
+          </li>
+          <li class="github">
+            <i class="fa fa-github"></i>
+            <a href="https://github.com/iancnorden" target="_blank">github.com/iancnorden</a>
+          </li>
+          <li class="twitter">
+            <i class="fa fa-twitter"></i>
+            <a href="https://twitter.com/iancnorden" target="_blank">@iancnorden</a>
+          </li>
+        </ul>
+      </div>
+      <!--//contact-container-->
+      <div class="education-container container-block">
+        <h2 class="container-block-title">Education</h2>
+        <div class="item">
+          <h4 class="degree">BS in IT; </br> Data Center & Network</h4>
+          <h5 class="meta">Georgia Southern University</h5>
+          <div class="time">2007 - 2011</div>
+        </div>
+        <!--//item-->
+      </div>
+      <!--//education-container-->
+      <div class="languages-container container-block">
+        <h2 class="container-block-title">Languages</h2>
+        <ul class="list-unstyled interests-list">
+          <li>English
+            <span class="lang-desc">(Native)</span>
+          </li>
+          <li>Python
+            <span class="lang-desc">(3.x / 2.7)</span>
+          </li>
+        </ul>
+      </div>
+      <!--//Languages-->
+      <div class="interests-container container-block">
+        <h2 class="container-block-title">Personal Interests</h2>
+        <ul class="list-unstyled interests-list">
+          <li>Solving Homelab Problems</li>
+          <li>Honey Bee Care</li>
+          <li>PC Games</li>
+          <li>Auto Detailing</li>
+        </ul>
+      </div>
+      <!--//Interests-->
+      <div class="interests-container container-block">
+        <h2 class="container-block-title">Homelab Progress</h2>
+        <ul class="list-unstyled interests-list">
+          <li>Edge Ubiquiti USG</li>
+          <li>Internal PFSense FW / Router</li>
+          <li>Segregated Ubiquiti Wifi Network</li>
+          <li>OSSIM Deployment</li>
+          <li>Nessus / Nexpose deployed</li>
+          <li>Pentest Labs</li>
+          <li>No IOT / smart devices</li>
+      </div>
+      <!--//Interests-->
+      </ul>
+    </div>
+    <!--//sidebar-wrapper-->
+    <div class="main-wrapper">
+      <section class="section summary-section">
+        <h2 class="section-title">
+          <i class="fa fa-user"></i>Profile</h2>
+        <p>Hi, I'm
+          <b>Ian Norden</b>. I enjoy tackling complex architectural problems, remaining flexible enough to solve AppSec and Red Team gaps, and find joy in automating the boring. I've recently returned to AppSec, after helping found and build the Red Team at <a href="https://www.theice.com/index">Intercontinental Exchange(NYSE: ICE)</a>, the leading network of regulated exchanges and clearinghouses for financial and commodity markets.</p>
+        <div class="summary">
+        </div>
+        <!--//summary-->
+      </section>
+      <!--//section-->
+      <section class="section experiences-section">
+        <h2 class="section-title">
+          <i class="fa fa-briefcase"></i>Experience</h2>
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="job-title">Senior Security Engineer - Application Security</h3>
+              <div class="time">Sep 2018 - Present </div>
+            </div>
+            <!--//upper-row-->
+            <div class="company"><a href="https://www.theice.com/index">Intercontinental Exchange (NYSE: ICE)</a></div>
+          </div>
+          <!--//meta-->
+          <div class="details">
+            <p>Placeholder for updates...
+            </p>
+          </div>
+          <!--//details-->
+        </div>
+        <!--//item-->
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="job-title">Senior Security Engineer - Red Team</h3>
+              <div class="time">Mar 2017 - Sep 2018</div>
+            </div>
+            <!--//upper-row-->
+            <div class="company"><a href="https://www.theice.com/index">Intercontinental Exchange (NYSE: ICE)</a></div>
+          </div>
+          <!--//meta-->
+          <div class="details">
+            <p>Recognized as a leader within InfoSec at ICE. Architected and operated all facets of the vulnerability scanning architecture as well as the Red Team Ops Infrasture. Leading most initiatives to create automation solutions through a Python / Django dashboard bringing together disparate InfoSec teams, tools, and processes. Architecting and implementating an always-on security controls testing platform, Verodin. Pursuing OSCP Certification. Considered the ICE subject matter expert on TLS implementations and the go-to Crypto nerd. Regularly develop and publish TLS policy. Developing configuration standards for SSH and SFTP servers throughout ICE.
+            </p>
+          </div>
+          <!--//details-->
+        </div>
+        <!--//item-->
 
-        function hslToHex(h, s, l) {
-            h /= 360;
-            s /= 100;
-            l /= 100;
-            var r = void 0,
-                g = void 0,
-                b = void 0;
-            if (s === 0) {
-                r = g = b = l; // achromatic
-            } else {
-                var hue2rgb = function hue2rgb(p, q, t) {
-                    if (t < 0) t += 1;
-                    if (t > 1) t -= 1;
-                    if (t < 1 / 6) return p + (q - p) * 6 * t;
-                    if (t < 1 / 2) return q;
-                    if (t < 2 / 3) return p + (q - p) * (2 / 3 - t) * 6;
-                    return p;
-                };
-                var q = l < 0.5 ? l * (1 + s) : l + s - l * s;
-                var p = 2 * l - q;
-                r = hue2rgb(p, q, h + 1 / 3);
-                g = hue2rgb(p, q, h);
-                b = hue2rgb(p, q, h - 1 / 3);
-            }
-            var toHex = function toHex(x) {
-                var hex = Math.round(x * 255).toString(16);
-                return hex.length === 1 ? '0' + hex : hex;
-            };
-            return '#' + toHex(r) + toHex(g) + toHex(b);
-        }
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="job-title">Security Engineer - Red Team</h3>
+              <div class="time">May 2016 - Mar 2017</div>
+            </div>
+            <!--//upper-row-->
+            <div class="company"><a href="https://www.theice.com/index">Intercontinental Exchange (NYSE: ICE)</a></div>
+          </div>
+          <!--//meta-->
+          <div class="details">
+            <p>Challenged as the first member of the Red Team to build a platform for penetration testing and scenario developement dors for automating Red Team scenarios, building networks and infrastructure for penetration testing. Managing numerous penetration testing vendors, executing against policy and best practices. Pursuing OSCP Certification. Developing a platform for automated assessment of SSH / SFTP configuration hardening to expand on the TLS / dashboard dev project. Own and manage the Bug Bounty platform.</p>
+          </div>
+          <!--//details-->
+        </div>
+        <!--//item-->
 
-        window.onload = function () {
-            let stopProp = function (ev) {
-                ev.stopPropagation();
-            }
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="job-title">Security Engineer - Application Security</h3>
+              <div class="time">Mar 2016 - May 2016</div>
+            </div>
+            <!--//upper-row-->
+            <div class="company"><a href="https://www.theice.com/index">Intercontinental Exchange (NYSE: ICE)</a></div>
+          </div>
+          <!--//meta-->
+          <div class="details">
+            <p>Created first hardening and configuration guidelines. Key resource in producing proof of concepts for improving password hashing standards. Continued aggressive expansion of the vulnerability scanning platforms. Developed a proof of concept HTML based Pentest Report Generation tool. Key automation resource for scripting heavy lift tasks from other InfoSec teams. Key resource in overhaul of vulenrability scanning policies. Built pentest produced POC's for internal use.</p>
+          </div>
+          <!--//details-->
+        </div>
+        <!--//item-->
 
-            var colorElement = document.getElementById("color");
-            colorElement.addEventListener("click", stopProp, false);
-            colorElement.addEventListener("mousedown", stopProp, false);
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="job-title">Security Analyst - Application Security</h3>
+              <div class="time">Mar 2015 - Mar 2016</div>
+            </div>
+            <!--//upper-row-->
+            <div class="company"><a href="https://www.theice.com/index">Intercontinental Exchange (NYSE: ICE)</a>
+            </div>
+          </div>
+          <!--//meta-->
+          <div class="details">
+            <p>On day one, challenged to overhaul, expand, and own the entire infrastructure vulnerability assessment platform. Expert technical resource for SSL / TLS hardening, created automated platform for scanning TLS configurations throughout the enterprise (inspired my personal SSLDash project). Wrote the vulnerability assessment policies and procedures. Coordinated numerous penetration tests of ICE web and thick client applications. Championed the AppSec Web App Dashboard project to automate clunky metrics, reduce human error, and enhance AppSec assessment capabilities using Python / Django. Lead resource in implementing Bug Bounty program.</p>
+          </div>
+          <!--//details-->
+        </div>
+        <!--//item-->
 
-            var setFavicon = function (hex) {
-                var canvas = document.createElement('canvas');
-                canvas.width = 16;
-                canvas.height = 16;
-                var ctx = canvas.getContext('2d');
-                ctx.fillStyle = hex;
-                ctx.fillRect(0, 0, 16, 16);
-                document.getElementsByTagName('link')[0].href = canvas.toDataURL("image/x-icon");
-            }
-
-            var setRandomColor = function setRandomColor() {
-                var h = void 0,
-                    s = void 0,
-                    l = void 0;
-
-                h = randomInt(0, 359);
-                s = randomInt(55, 75);
-                l = randomInt(40, 60);
-
-                document.documentElement.style.setProperty('--color', 'hsl(' + h + ', ' + s + '%, ' + l + '%)');
-                var hex = hslToHex(h, s, l);
-                document.title = hex;
-                colorElement.innerHTML = hex;
-                document.documentElement.style.setProperty('--color-transparent', hex + '22');
-
-                setFavicon(hex);
-            };
-            setRandomColor();
-
-            var body = document.getElementsByTagName("body")[0];
-            body.addEventListener("mousedown", function (ev) {
-                ev.preventDefault();
-            });
-            body.addEventListener("click", function () {
-                setRandomColor();
-            }, false);
-        };
-    </script>
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="job-title">Sr. Security Engineer - Professional Services</h3>
+              <div class="time">Jan 2015 - Mar 2015</div>
+            </div>
+            <!--//upper-row-->
+            <div class="company"><a href="https://www.earthlink.com/">Earthlink (now Windstream)</a></div>
+          </div>
+          <!--//meta-->
+          <div class="details">
+            <p>Lead role and customer advocate within the Security Professional Services. Lead on all customer engagements and a key technical resource for major sales engineering efforts. Performed numerous penetration testing scenarios and assessments. Overhauled reports to integrate with new toolsets and align with industry best practices. Re-engineered the Network Professional Services assessment infrastructure.</p>
+          </div>
+          <!--//details-->
+        </div>
+        <!--//item-->
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="job-title">Security Engineer - Professional Services</h3>
+              <div class="time">Nov 2014 - Jan 2015</div>
+            </div>
+            <!--//upper-row-->
+            <div class="company"><a href="https://www.earthlink.com/">Earthlink (now Windstream)</a></div>
+          </div>
+          <!--//meta-->
+          <div class="details">
+            <p>Built a new team and infrastructure within the Security Professional Services organization. Expanded and strengthened our vendor management functions for backfill on special tests coordinating numerous testers. Rewrote the penetration testing policies and procedures in a customer facing function. Planned an overhaul of all capabilities within the organization.</p>
+          </div>
+          <!--//details-->
+        </div>
+        <!--//item-->
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="job-title">Security Analyst II - Enterprise InfoSec</h3>
+              <div class="time">Sept 2013 - Nov 2014</div>
+            </div>
+            <!--//upper-row-->
+            <div class="company"><a href="https://www.earthlink.com/">Earthlink (now Windstream)</a></div>
+          </div>
+          <!--//meta-->
+          <div class="details">
+            <p>Continued as a key leader within the Information Security department. Agressively broadened coverage of the infrastructure vulnerability management platform. Contributed to appliction and information security policies. Key role in the incident response team, and coordinated a number of cyber forensics efforts. Lead for mentoring and training new team members.</p>
+          </div>
+          <!--//details-->
+        </div>
+        <!--//item-->
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="job-title">Security Analyst I - Enterprise InfoSec</h3>
+              <div class="time">Jan 2012 - Sept 2013</div>
+            </div>
+            <!--//upper-row-->
+            <div class="company"><a href="https://www.earthlink.com/">Earthlink (now Windstream)</a></div>
+          </div>
+          <!--//meta-->
+          <div class="details">
+            <p>Part of a broad InfoSec team that coordinates incident response, SIEM investigation, and vulnerability management. By year one, I led engineering and management of the infrastructure vulnerability remediation program. Introduced vulnerability assessment to infrastructure before production. Key technical resource in coordination on penetration testing throughout the environments.</p>
+          </div>
+          <!--//details-->
+        </div>
+        <!--//item-->
+      </section>
+      <!--//section-->
+      <section class="section projects-section">
+        <h2 class="section-title">
+          <i class="fa fa-archive"></i>Projects</h2>
+        <div class="item">
+          <!--//item-->
+          <span class="project-title">
+            <a href="https://github.com/iancnorden/Resume-Site">My Resume Site</a>
+          </span> :
+          <span class="project-tagline">
+            </br>This website, backed up thanks to Github. </span>
+          </span>
+        </div>
+        <!--//item-->
+        <div class="item">
+          <span class="project-title">
+            <a href="https://github.com/berzerk0/Probable-Wordlists">Probable Word-lists</a>
+          </span> :
+          <span class="project-tagline">
+          </br>I earned an attribution shout out for helping provide some lift (CPU @ homelab and bandwidth) to apply some better sort filtering in the early days. </span>
+        </div>
+        <!--//item-->
+        <div class="item">
+          <span class="project-title">
+            <a href="https://github.com/leebaird/discover">Discover Scripts</a>
+          </span> :
+          <span class="project-tagline">
+            </br>Trusted contributor to this OSINT and pentest automation resource.</span>
+        </div>
+        <!--//item-->
+        <div class="item">
+          <span class="project-title">
+            <a href="http://distroseed.github.io/distroseed/">DistroSeed</a>
+          </span> :
+          <span class="project-tagline">
+            </br>I co-founded this open source project which is an automated assistant for finding, downloading, and managing Linux Distributions. Trying to solve the "what can I contibute to with just bandwidth and a spare PC"
+          </span>
+        </div>
+        <!--//item-->
+        <div class="item">
+          <span class="project-title">
+            <a href="#">SSLDash</a>
+          </span> :
+          <span class="project-tagline">
+            </br>Beautiful dashboard for automated scanning, grading, and reporting on SSL / TLS strength for websites. <i>Homelab style project to be open sourced.</i>
+          </span>
+        </div>
+        <!--//item-->
+        <div class="item">
+          <span class="project-title">
+            <a href="https://github.com/PaulSec/awesome-sec-talks">Awesome-Sec-Talks</a>
+          </span> :
+          <span class="project-tagline">
+            </br>I regularly contribute to this well maintained security talks and conferences reference.</span>
+        </div>
+        <!--//item-->
+        <div class="item">
+          <span class="project-title">
+            <a href="#">"Home Lab" +Dashboard</a>
+          </span> :
+          <span class="project-tagline">
+            </br>This homelab project will integrate each of my disparate VM's web interfaces, manage backups, and handle monitoring all in one concise web frontend (name to be improved).</span>
+        </div>
+        <!--//item-->
+      </section>
+      <!--//section-->
+    </div>
+    </section>
+    <!--//skills-section-->
+  </div>
+  <!--//item-->
+  </div>
+  <!--//main-body-->
+  </div>
+  <footer class="footer">
+    <div class="text-center">
+      <small class="copyright">Licensed use under the Creative Commons Attribution 3.0 License</small>
+      </br>
+      <small class="copyright">Theme by Xiaoying Riley </small>
+    </div>
+    <!--//container-->
+  </footer>
+  <!--//footer-->
+  <!-- Javascript -->
+  <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+  <!-- custom js -->
+  <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
-
 </html>
